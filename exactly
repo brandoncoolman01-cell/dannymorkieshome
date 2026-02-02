@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DannyMorkiesHome | Healthy Puppies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; background:#f7f9fa; color:#333; }
+    header { background:#1f6f54; color:#fff; padding:30px 20px; text-align:center; }
+    nav { background:#155843; padding:12px; text-align:center; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:bold; }
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
+    h2 { color:#1f6f54; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px; }
+    .card { background:#fff; padding:25px; border-radius:8px; box-shadow:0 4px 10px rgba(0,0,0,0.08); }
+    footer { background:#1f6f54; color:#fff; text-align:center; padding:25px; }
+    input, textarea, button { width:100%; padding:12px; margin-top:10px; }
+    button { background:#1f6f54; color:#fff; border:none; cursor:pointer; font-size:16px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DannyMorkiesHome</h1>
+  <p>Healthy, Happy & Well-Raised Puppies</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#puppies">Available Puppies</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Reserve</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We raise healthy, well-socialized puppies in a loving home environment. Our focus is quality, care, and connecting families with their perfect companion.</p>
+</section>
+
+<section id="puppies">
+  <h2>Available Puppies</h2>
+  <div class="grid">
+    <div class="card">Morkie – Female (8 weeks) – Available</div>
+    <div class="card">Morkie – Male (9 weeks) – Reserved</div>
+    <div class="card">Morkie – Female (10 weeks) – Available</div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Puppy Gallery</h2>
+  <div class="grid">
+    <div class="card">Add Image</div>
+    <div class="card">Add Image</div>
+    <div class="card">Add Image</div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Happy Families</h2>
+  <div class="grid">
+    <div class="card">“Very professional and trustworthy breeder.”</div>
+    <div class="card">“Our puppy arrived healthy and happy!”</div>
+    <div class="card">“Highly recommended.”</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Reserve a Puppy ($250)</h2>
+  <form action="https://formsubmit.co/Njuscar24@gmail.com" method="POST" enctype="multipart/form-data">
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="text" placeholder="Phone / WhatsApp" required>
+    <textarea placeholder="Notes or preferred puppy"></textarea>
+    <input type="file" name="payment_proof" accept="image/*" required>
+    <input type="hidden" name="_captcha" value="false">
+    <button type="submit">Submit Reservation</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 DannyMorkiesHome. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
